@@ -1,0 +1,29 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~sweetalert2/src/sweetalert2';
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+@import 'helpersgbp';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700|Roboto:400,700&display=swap');
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
